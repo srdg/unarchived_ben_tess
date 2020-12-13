@@ -9,6 +9,6 @@ for gt_file in txt:
 	content=[i for i in content if i!=""]
 	counter=1
 	for line in content:
-		with open(gt_file[:gt_file.find('.')]+"-"+str(counter).zfill(3)+".exp0.txt","w+", encoding="utf-8") as hocr_handler:
+		with open(gt_file[:gt_file.find('.')]+"-"+str(counter).zfill(3)+".exp0.gt.txt","w+", encoding="utf-8") as hocr_handler:
 			hocr_handler.write(line)
 		counter+=1
