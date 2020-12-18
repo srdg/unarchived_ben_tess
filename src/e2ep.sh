@@ -1,5 +1,5 @@
 echo "*******************Install dependencies***************************"
-apt install -q tesseract-ocr bc libtesseract-dev 
+apt install tesseract-ocr bc libtesseract-dev 
 echo "********************Verify installation**************************"
 which tesseract
 echo "*******************Install language***************************"
