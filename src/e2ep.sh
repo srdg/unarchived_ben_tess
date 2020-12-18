@@ -1,7 +1,9 @@
 echo "*******************Install dependencies***************************"
-apt install -q tesseract-ocr bc libtesseract-dev tesseract-ocr-ben
+apt install -q tesseract-ocr bc libtesseract-dev 
 echo "********************Verify installation**************************"
 which tesseract
+echo "*******************Install language***************************"
+apt install tesseract-ocr-ben
 echo "*********************Verify language*************************"
 ls /usr/share/tesseract-ocr/4.00/tessdata | grep traineddata
 echo "**********************Download training data************************"
