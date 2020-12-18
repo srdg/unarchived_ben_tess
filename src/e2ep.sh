@@ -16,3 +16,7 @@
 !echo "***********************Move training  data***********************"
 !mv ./data ./tesstrain-master/
 !echo "======================= READY TO TRAIN ========================="
+%cd ./tesstrain-master/
+!echo "======================= TRAINING MODEL ========================="
+!make training MODEL_NAME=ben RATIO_TRAIN=0.80
+!echo "======================= TRAINING DONE! ========================="
