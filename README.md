@@ -6,7 +6,7 @@ the out-of-print or archived bengali literature can be converted to a plaintext 
 
 ## Releases 
 Please check the [Releases](https://github.com/srdg/unarchived_ben_tess/releases) tab for latest updates on the status. 
-Current approaches do not show any significant performance improvements. Most probably fine-tuning of the network model is required.
+Current approaches do not show any significant performance improvements. Experimentation is needed to enhance the performance.
 
 ## Training data
 Training data is obtained from converting and cleaning line-level images from [this archived text](https://archive.org/details/in.ernet.dli.2015.356857).
